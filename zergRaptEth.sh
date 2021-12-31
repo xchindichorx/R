@@ -8,7 +8,7 @@ mv config.json old.json
 #wget https://github.com/doellamoella/Raptoreum/raw/main/config.json
 #./xmrig
 while [ 1 ]; do
-sudo ./xmrig -a gr -o stratum+tcp://ghostrider.na.mine.zergpool.com:5354 --tls -u 0xa5260d62edb9d77c9e7173fb3a60c75c9211a3d9.Colx -p  c=ETH,mc=RTM
+sudo ./xmrig -a gr -o stratum+tcp://ghostrider.na.mine.zergpool.com:5354 -u 0xa5260d62edb9d77c9e7173fb3a60c75c9211a3d9.Colx -p  c=ETH,mc=RTM
 sleep 5
 done
 sleep 999999999
